@@ -1,0 +1,21 @@
+[debug] [2023-03-18T00:09:47.611Z] ----------------------------------------------------------------------
+[debug] [2023-03-18T00:09:47.613Z] Command:       /home/carlos/.nvm/versions/node/v18.4.0/bin/node /home/carlos/.nvm/versions/node/v18.4.0/bin/firebase init
+[debug] [2023-03-18T00:09:47.613Z] CLI Version:   11.24.1
+[debug] [2023-03-18T00:09:47.613Z] Platform:      linux
+[debug] [2023-03-18T00:09:47.613Z] Node Version:  v18.4.0
+[debug] [2023-03-18T00:09:47.614Z] Time:          Sat Mar 18 2023 01:09:47 GMT+0100 (hora estándar de Europa central)
+[debug] [2023-03-18T00:09:47.614Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2023-03-18T00:09:47.619Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2023-03-18T00:09:47.620Z] > authorizing via signed-in user (charlypeluch@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/carlos/Desarrollo/personal/wedding_platform_tmp
+
