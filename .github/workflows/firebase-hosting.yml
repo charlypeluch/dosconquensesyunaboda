@@ -18,5 +18,5 @@ jobs:
           repoToken: '${{ secrets.GITHUB_TOKEN }}'
           firebaseServiceAccount: '${{ secrets.FIREBASE_SERVICE_ACCOUNT_DOSCONQUENSESYUNABODA }}'
           projectId: dosconquensesyunaboda
-          channelId: 'commit-${{ github.event.number }}'
+          channelId: live
           # channelId: 'pr-${{ github.event.number }}-${{ github.event.pull_request.head.ref }}'
