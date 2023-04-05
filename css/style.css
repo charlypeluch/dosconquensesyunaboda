@@ -1,0 +1,188 @@
+/* Custom Stylesheet */
+/* https://materializeweb.com/ */
+
+
+/* Global*/
+:root {
+    --background: #fbfbfb;
+}
+
+body, html {
+    background-color: var(--background);
+    height: 100%;
+    width: 100%;
+    background-image: url("data:image/svg+xml,%3Csvg width='52' height='26' viewBox='0 0 52 26' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%2392aaac' fill-opacity='0.06'%3E%3Cpath d='M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+
+/* Overwrite materialize styles*/
+.card {
+    border-radius: 20px;
+}
+
+.card-map {
+    min-height: 350px;
+}
+
+.btn-flat {
+    border-radius: 20px;
+}
+.card-image img {
+    border-radius: 20px 20px 0px 0px !important;
+}
+
+
+/* Custom web styles */
+.wedding-counter {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.wedding-counter .time {
+    padding: 0.5rem;
+}
+
+.wedding-counter .label {
+    font-weight: 100;
+}
+
+.google-map {
+    padding-bottom: 50%;
+    position: relative;
+}
+
+.google-map .gmap-location {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.google-map iframe {
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: absolute;
+    border-radius: 20px;
+}
+
+.vertical-line {
+    position: absolute;
+    left: 50%;
+    height: calc(100% - 1200px);
+    width: 2px;
+    margin-left: -1px;
+    z-index: 0;
+    color: black;
+    background-attachment: fixed;
+    background-image: repeating-linear-gradient(transparent, transparent 2px, rgb(138, 138, 138) 2px, rgb(138, 138, 138) 4px);
+}
+
+.vertical-line-icon {
+    position: relative;
+    z-index: 1;
+    padding: 20px;
+    font-size: 35px;
+    background-color: var(--background);
+    border-radius: 50px;
+    border: 2px solid rgb(138, 138, 138);
+    border-style: dotted;
+}
+
+.container {
+    width: 100%;
+    min-height: 95vh;
+    overflow: hidden;
+}
+
+.container-intro {
+    min-height: 95vh;
+    -webkit-animation-duration: 3.5s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: both;-webkit-animation-name: intro;
+    -moz-animation-duration: 3.5s;-moz-animation-iteration-count: 1;-moz-animation-fill-mode: both;-moz-animation-name: intro;
+    -ms-animation-duration: 3.5s;-ms-animation-iteration-count: 1;-ms-animation-fill-mode: both;-ms-animation-name: intro;
+    animation-duration: 3.5s;animation-iteration-count: 1;animation-fill-mode: both;animation-name: intro;
+}
+@-webkit-keyframes intro {
+    0% {-webkit-transform: translate(000px,50%);}
+    30% {-webkit-transform: translate(000px,50%);}
+    35% {-webkit-transform: translate(000px,51%);}
+    80%, 100% {-webkit-transform: translate(000px,50px);}
+}
+@-moz-keyframes intro {
+    0% {-moz-transform: translate(000px,50%);}
+    30% {-moz-transform: translate(000px,50%);}
+    35% {-moz-transform: translate(000px,51%);}
+    80%, 100% {-moz-transform: translate(000px,50px);}
+}
+@-ms-keyframes intro {
+    0% {-ms-transform: translate(000px,50%);}
+    30% {-ms-transform: translate(000px,50%);}
+    35% {-ms-transform: translate(000px,51%);}
+    80%, 100% {-ms-transform: translate(000px,50px);}
+}
+@keyframes intro {
+    0% {transform: translate(000px,50%);}
+    30% {transform: translate(000px,50%);}
+    35% {transform: translate(000px,51%);}
+    80%, 100% {transform: translate(000px,50px);}
+}
+
+.container-intro-hashtag {
+    overflow: hidden;
+    -webkit-animation-delay: 1.2s;-webkit-animation-duration: 1s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: both;-webkit-animation-name: intro-hashtag;
+    -moz-animation-delay: 1.2s;-moz-animation-duration: 1s;-moz-animation-iteration-count: 1;-moz-animation-fill-mode: both;-moz-animation-name: intro-hashtag;
+    -ms-animation-delay: 1.2s;-ms-animation-duration: 1s;-ms-animation-iteration-count: 1;-ms-animation-fill-mode: both;-ms-animation-name: intro-hashtag;
+    animation-delay: 1.2s;animation-duration: 1s;animation-iteration-count: 1;animation-fill-mode: both;animation-name: intro-hashtag;
+}
+@-webkit-keyframes intro-hashtag {
+    0% {opacity:0;}
+    75% {opacity:1;}
+}
+
+.container-content {
+    display: none;
+}
+
+.wedding-card-front {
+    border-radius: 20px;
+    -webkit-animation-duration: 3.5s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: both;-webkit-animation-name: card-front;
+    -moz-animation-duration: 3.5s;-moz-animation-iteration-count: 1;-moz-animation-fill-mode: both;-moz-animation-name: card-front;
+    -ms-animation-duration: 3.5s;-ms-animation-iteration-count: 1;-ms-animation-fill-mode: both;-ms-animation-name: card-front;
+    animation-duration: 3.5s;animation-iteration-count: 1;animation-fill-mode: both;animation-name: card-front;
+}
+@-webkit-keyframes card-front {
+    80%, 100% {margin-top: -260px; scale: 0.95}
+}
+@-moz-keyframes card-front {
+    80%, 100% {margin-top: -260px; scale: 0.95}
+}
+@-ms-keyframes card-front {
+    80%, 100% {margin-top: -260px; scale: 0.95}
+}
+@keyframes card-front {
+    80%, 100% {margin-top: -260px; scale: 0.95}
+}
+
+.wedding-card-back {
+    border-radius: 5px;
+    -webkit-animation-duration: 3.5s;-webkit-animation-iteration-count: 1;-webkit-animation-fill-mode: both;-webkit-animation-name: card-back;
+    -moz-animation-duration: 3.5s;-moz-animation-iteration-count: 1;-moz-animation-fill-mode: both;-moz-animation-name: card-back;
+    -ms-animation-duration: 3.5s;-ms-animation-iteration-count: 1;-ms-animation-fill-mode: both;-ms-animation-name: card-back;
+    animation-duration: 3.5s;animation-iteration-count: 1;animation-fill-mode: both;animation-name: card-back;
+}
+@-webkit-keyframes card-front {
+    50%, 100% {margin-top: 20px;}
+}
+@-moz-keyframes card-front {
+    50%, 100% {margin-top: 20px;}
+}
+@-ms-keyframes card-front {
+    50%, 100% {margin-top: 20px;}
+}
+@keyframes card-back {
+    50%, 100% {margin-top: 20px;}
+}

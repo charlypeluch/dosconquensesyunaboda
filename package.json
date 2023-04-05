@@ -1,0 +1,11 @@
+{
+  "name": "dosconquensesyunaboda-web",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "serve": "http-server"
+  },
+  "devDependencies": {
+    "http-server": "^14.1.1"
+  }
+}
